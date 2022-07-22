@@ -1,0 +1,4 @@
+32677:swagger
+
+
+http://18.116.62.17:32677/swagger/index.html

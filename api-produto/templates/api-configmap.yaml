@@ -3,5 +3,5 @@ kind: ConfigMap
 metadata:
   name: {{ .Release.Name }}-api-configmap
 data:
-  Mongo__Host: {{ .Release.Name }}-mongo-service
+  Mongo__Host: {{template "mongodb.serviceName" . }}
   MOngo__DataBase: {{ .Values.mongodb.databaseName }}
