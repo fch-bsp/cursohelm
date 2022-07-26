@@ -1,6 +1,6 @@
 32677:swagger
 K8S-Work1
-http://18.116.62.17:porta/swagger
+http://18.116.62.17:30344/swagger
 
 K8S-Work1
 http://18.117.94.247:porta/swagger
